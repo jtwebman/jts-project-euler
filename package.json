@@ -1,0 +1,27 @@
+{
+  "name": "jts-project-euler",
+  "version": "1.0.0",
+  "description": "This is my JavaScript answers for Project Euler.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtwebman/projecteuler.git"
+  },
+  "author": "JT Turner <jtwebman@gmail.com> (https://jtwebman.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtwebman/projecteuler/issues"
+  },
+  "homepage": "https://github.com/jtwebman/projecteuler#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "must": "^0.13.1"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}
