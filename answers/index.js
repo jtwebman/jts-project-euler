@@ -7,3 +7,4 @@ console.log('#2:', require('./0002')(4000000));
 console.log('#3:', require('./0003')(600851475143));
 console.log('#4:', require('./0004')(3));
 console.log('#5:', require('./0005')(20));
+console.log('#6:', require('./0006')(100));
