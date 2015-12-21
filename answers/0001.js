@@ -12,7 +12,3 @@ function sumMutiplesOf3And5(toNumber) {
 }
 
 module.exports = sumMutiplesOf3And5;
-
-/* Print answers */
-
-console.log('Answer to question #1:', sumMutiplesOf3And5(1000));

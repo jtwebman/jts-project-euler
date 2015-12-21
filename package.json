@@ -1,6 +1,6 @@
 {
   "name": "jts-project-euler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is my JavaScript answers for Project Euler.",
   "main": "index.js",
   "scripts": {
