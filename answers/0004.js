@@ -18,14 +18,7 @@ function minNumberByDigits(numberOfDigits) {
 
 function isPalindrome(num) {
   let numStr = num.toString();
-  if (numStr.length % 2 === 0) {
-    let firstPart = numStr.substring(0, numStr.length / 2);
-    let secondPart = numStr.substring(numStr.length / 2).
-    split('').reverse().join('');
-    return firstPart == secondPart;
-  } else {
-    return false;
-  }
+  return numStr == numStr.split('').reverse().join('');
 }
 
 function largestPalindromeProduct(numberOfDigits) {
