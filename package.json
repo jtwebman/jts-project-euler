@@ -1,6 +1,6 @@
 {
   "name": "jts-project-euler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is my JavaScript answers for Project Euler.",
   "main": "index.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jtwebman/projecteuler.git"
+    "url": "git+https://github.com/jtwebman/jts-project-euler.git"
   },
   "author": "JT Turner <jtwebman@gmail.com> (https://jtwebman.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jtwebman/projecteuler/issues"
+    "url": "https://github.com/jtwebman/jts-project-euler/issues"
   },
-  "homepage": "https://github.com/jtwebman/projecteuler#readme",
+  "homepage": "https://github.com/jtwebman/jts-project-euler#readme",
   "devDependencies": {
     "mocha": "^2.3.4",
     "must": "^0.13.1"

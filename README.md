@@ -2,11 +2,19 @@
 
 Don't cheat do your own work but if you want to hire me, take a look ;)
 
+## Get Answers
+
+To get the answers just run:
+
+```bash
+npm start
+```
+
 ## Tests
 
-To see my answers clone the project git repo and run.
+To run the test:
 
-```base
+```bash
 npm install
 npm test
 ```
