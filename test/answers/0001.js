@@ -24,6 +24,4 @@ describe('Question 1 tests', () => {
 
   });
 
-
-
 });
