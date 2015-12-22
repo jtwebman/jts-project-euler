@@ -9,3 +9,4 @@ console.log('#4:', require('./0004')(3));
 console.log('#5:', require('./0005')(20));
 console.log('#6:', require('./0006')(100));
 console.log('#7:', require('./0007')(10001));
+console.log('#8:', require('./0008')(13));
