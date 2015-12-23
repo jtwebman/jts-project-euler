@@ -80,7 +80,6 @@ function sumOfPrimeNumbersTo4(num) {
   if (num === 2) return 2;
   const root = Math.sqrt(num);
 
-  /* sieve is an Array that reperesnts all odd numbers to num from 9 */
   let sievebound =  Math.floor((num-1) / 2);
   let sieve = new Array(sievebound + 1);
   sieve.fill(false);
