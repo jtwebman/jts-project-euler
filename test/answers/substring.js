@@ -3,7 +3,7 @@
 var expect = require('must');
 var maxLengthNoRepeatedCharators = require('../../answers/substring');
 
-describe.only('Substring question tests', () => {
+describe('Substring question tests', () => {
   var try1 = 'abcdefgyafjemcownenmf,kfpekw,dlge[;;skdjw]';
 
   it('max non-repeated charactors in try 1', () => {

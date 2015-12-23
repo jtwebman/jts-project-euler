@@ -11,3 +11,4 @@ console.log('#6:', require('./0006')(100));
 console.log('#7:', require('./0007')(10001));
 console.log('#8:', require('./0008')(13));
 console.log('#9:', require('./0009')(1000));
+console.log('#10:', require('./0010')(2000000));
