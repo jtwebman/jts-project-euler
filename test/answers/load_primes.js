@@ -40,7 +40,7 @@ function addIfPrime(done, client, num) {
   }
 }
 
-it.only('load db of prime numbers', function(done) {
+it.skip('load db of prime numbers', function(done) {
   pg.connect(conString, function(err, client) {
     if(err) {
       done(err);
