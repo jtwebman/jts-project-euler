@@ -9,24 +9,21 @@ function longestCollatzSeqStartingUnder(num) {
     let currentNumber = i;
     let count = 0;
 
-    if (numbersChecked[i]) {
-      count = numbersChecked[i];
-    } else {
-      while (currentNumber !== 1) {
-        count++;
-        if (currentNumber % 2 === 0) {
-          currentNumber = currentNumber / 2;
-        } else {
-          currentNumber = 3 * currentNumber + 1;
-        }
-
-        if (numbersChecked[currentNumber]) {
-          count += numbersChecked[currentNumber];
-          break;
-        }
+    while (currentNumber !== 1) {
+      count++;
+      if (currentNumber % 2 === 0) {
+        currentNumber = currentNumber / 2;
+      } else {
+        currentNumber = 3 * currentNumber + 1;
       }
-      numbersChecked[i] = count;
+
+      if (numbersChecked[currentNumber]) {
+        count += numbersChecked[currentNumber];
+        break;
+      }
     }
+
+    numbersChecked[i] = count;
 
     if (count > longestCollatzSeq) {
       longestCollatzSeq = count;
